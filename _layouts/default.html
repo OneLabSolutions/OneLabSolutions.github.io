@@ -2,10 +2,14 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>{{ page.title }}</title>
+        <title>{{ site.name }} - {{ page.title }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
 
         {{ content }}
 
